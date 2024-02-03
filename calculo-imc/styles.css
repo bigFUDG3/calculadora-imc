@@ -1,0 +1,109 @@
+html, body {
+    background-color: #000;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: transparent;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #fff;
+    display: flex;
+    margin-top: 5px;
+}
+
+span strong {
+    color: #fff;
+}
+
+.input span {
+    color: rgb(155, 155, 155);
+    text-align: center;
+}
+
+.input input {
+    background-color: #242424;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    width: 210px;
+    height: 50px;
+    color: #fff;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    outline: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.input:placeholder {
+    color: rgb(155, 155, 155);
+}
+
+
+
+.button__imc button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 210px;
+    height: 50px;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 30px;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    font-size: 14px;
+}
+
+
+#resultado {
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+#resultado h3 {
+    display: flex;
+    margin: 5px 0 0px 0;
+}
